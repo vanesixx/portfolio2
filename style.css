@@ -31,8 +31,14 @@ body {
 .header nav a {
     text-decoration: none;
     color: #000000;
+    transition: color 0.3s;
     margin: 0 22px;
     font-weight: 500;
+
+}
+
+.header nav a:hover {
+    color: #feb246;
 }
 
 .header .user {
@@ -48,3 +54,148 @@ body {
     font-family: 'Inter', sans-serif;
     color: #929188;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+    padding: 100px 80px;
+    gap: 100px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 230px;
+    line-height: 0.9;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+
+.hero-text h1 span {
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+
+.hero-text .subtitle {
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+    margin-right: 50px;
+    text-align: right;
+    font-size: 20px;
+    width: 70%;
+    color: #000000;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 70%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.socials a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.stats {
+    display: flex;
+    gap: 80px;
+}
+
+.stat strong {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.stat p {
+    font-family: 'Inter', sans-serif;
+    margin-top: 6px;
+    margin-right: 50px;
+    width: 200px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.4;
+}
+
+.hero-image img {
+    border-radius: 30px;
+    width: 800px;
+    max-width: 100%;
+    display: block;
+}
+
+.about img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.exhibitions {
+    padding: 140px 80px;
+}
+
+.exhibitions h2 {
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.exhibitions ul {
+    list-style: none;
+}
+
+.exhibitions li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
+}
+
+.exhibitions li:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.exhibitions h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.exhibitions p {
+    font-size: 14px;
+    color: #666;
+}
+
+.exhibitions button {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
