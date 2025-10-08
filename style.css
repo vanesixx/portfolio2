@@ -1,9 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f8f7f3;
 }
 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
 .logo img {
     width: 80px;
     height: auto;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 22px;
+    font-weight: 500;
+}
+
+.header .user {
+    font-size: 18px;
+}
+
+.header .user .name {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.header .user .date {
+    font-family: 'Inter', sans-serif;
+    color: #929188;
 }
